@@ -1,0 +1,174 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>设计与审美</title><style>:root{--bg:#0f1115;--card:#171a21;--line:#262b36;--txt:#e6e8ee;--dim:#9aa3b2;--acc:#4da3ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:28px 18px 60px}
+header h1{font-size:22px;margin:0 0 6px}header p{color:var(--dim);margin:0 0 18px;font-size:13px}
+.stat{display:flex;gap:18px;color:var(--dim);font-size:13px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:18px}
+.stat b{color:var(--txt)}
+h2{font-size:16px;margin:26px 0 10px;padding-left:8px;border-left:3px solid var(--acc)}
+.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.item .t{font-weight:600;font-size:15px;margin-bottom:4px}
+.item .m{color:var(--dim);font-size:12px}
+.item .d{color:var(--dim);font-size:13px;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tag{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line);border-radius:99px;padding:1px 8px;margin-right:6px}
+.back{display:inline-block;margin-bottom:14px;font-size:13px}
+.note{color:var(--dim);font-size:12px;margin-top:26px;border-top:1px solid var(--line);padding-top:12px}
+.works{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+.wcover img{width:260px;border-radius:8px;display:block}
+.wmeta .wt{font-size:16px;font-weight:700;margin-bottom:6px}
+.wmeta .wm{color:var(--dim);font-size:12px;margin-bottom:10px}
+.wlink{font-size:13px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0}
+.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.chart{width:100%;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
+table.bt{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-align:left}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+.chips a{font-size:12px;border:1px solid var(--line);border-radius:99px;padding:3px 10px;color:var(--dim)}
+@media(max-width:520px){.works{flex-direction:column;align-items:flex-start}.wcover img{width:100%}}
+@media(max-width:520px){.wrap{padding:18px 12px 40px}}</style></head><body><div class="wrap">
+<header><h1><a href="index.html" style="color:inherit">DSH 观察站</a></h1><p>自动收录 DeepSeek Harness 生态里的新插件、新玩法、新教程</p></header>
+<a class="back" href="../index.html">← 返回</a>
+<h2>设计与审美</h2>
+<div class="m" style="color:#9aa3b2;font-size:12px;margin-bottom:14px">共 13 条 · 按播放排序</div>
+<div class="item">
+  <div class="t"><a href="v/BV1s3yXzQELi.html">别再压缩上下文了，一只成熟的大肥鱼要学会用《记忆焚化工》</a></div>
+  <div class="m">Z动开源机 · 7115 播放 · 7:0 · 2026-11-24</div>
+  <div class="d">仓库地址(欢迎star/fork)：
+https://github.com/zman406986/Agent-Memory-CREMATOR
+
+如何安装：不了解npm的话，建议下载后直接丢给AI模型，请它帮你装到dsh/opencode上。正常运行时，在视觉上不会有很明显的变化，只是每隔多轮对话，会在某轮对话后会停顿整理记忆。也可以人工输入/cremate发起一次记忆整理。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV13DyfzJEkR.html">[DSH插件] 完全面向开发场景设计的记忆插件</a></div>
+  <div class="m">Dark萎割 · 2696 播放 · 18:1 · 2026-11-24</div>
+  <div class="d">stash项目：https://github.com/wahhheee/stash
+
+其实 stash 某种程度上是 AINT 项目的副产物，Agent 知识就是为了玩 RP 学的（bushi
+这里也宣传一下 AINT 项目：https://github.com/wahhheee/aint
+
+本人不懂 TS，因此构思完成后实现外包给了 GPT，GPT 可真难用啊，给我训成驯龙高手了快
+后端boy正在学习前端知识中...
+
+BGM：
+Says - Nils Frahm
+Blurred - Kiasmos
+L</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1VfyHzEE3U.html">DeepSeek Harness 核心原理与插件化体系设计精析，架构师带你吃透最新 Agent 内核设计原理</a></div>
+  <div class="m">vue3面试题 · 171 播放 · 79:51 · 2026-11-23</div>
+  <div class="d">配套讲义资料，面试题和完整直播可以+下小助理获取[打call]：web5189
+也可以一键三连+评论区扣“111”
+点击→ https://www.bilibili.com/opus/997693552554147844获取超多资料大礼包</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV19RyQzaErR.html">～您的D老师特别关心已启动</a></div>
+  <div class="m">芒攸大夫 · 148 播放 · 0:27 · 2026-11-23</div>
+  <div class="d">快来设计你的deepseek harness启动动画和壁纸吧！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1NmWj6UEAb.html">让你的大肥鱼dsh成为有品味的AI设计师</a></div>
+  <div class="m">AI技术投降派 · 125 播放 · 7:7 · 2026-11-25</div>
+  <div class="d">大肥鱼宇宙最近来了一位移民：产品设计师归藏，在另一个生态有两万九千颗星的爆款，今年十月把自己打磨半年的整套设计系统打包成 DSH 插件搬了进来——六天后成为生态 design 类断层第一（714★，第二名只有44★）。他带来的不是又一批模板，是一条纪律：颜色这种事，不许 AI 自己做主。这期视频的画面，就是用他默认主题（克莱因蓝瑞士风）做的——你看片的同时也在看这套系统的活演示。
+
+00:05 移民与断层第一
+00:43 四个技能一套系统：一鱼三吃
+01:45 设计令牌三层：一层比一层硬
+03:03 三件</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1vbW86MEzC.html">【dsh-style】让 AI 学会看别人的视频，包括弹幕和画面</a></div>
+  <div class="m">爱玩崩铁的咸鱼 · 98 播放 · 1:9 · 2026-11-09</div>
+  <div class="d">第六个插件：dsh-style，学别人怎么做视频。
+
+不是抄。是把同类的数据拆成能用的数字。
+
+■ 先批量学
+一个 UP 主最近 N 条，或一个关键词下 N 条，一次入库。
+算三样：字幕的字数密度、句子长度、标题套路。
+
+■ 再往下拆弹幕和画面
+弹幕看两件事：哪段最密、哪个词被反复刷（DSH 测评那条「还没」被刷了 16 次）。
+画面本地算：切镜率、字幕条占比、亮度——不看图，不花视觉 token。
+
+■ 这些都算完，才轮到出稿
+给一个选题，直接给骨架：几段、每段多少字、每句几字、结尾怎么收。
+写完再给自</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1tfyBzpE96.html">程序员做AI项目别只停留在聊天Demo：DeepSeek Harness工程化实战，结合LLM Wiki一节课拆解四大企业级Agent项目与落地关键环节</a></div>
+  <div class="m">架构师徐庶 · 23 播放 · 155:42 · 2026-11-25</div>
+  <div class="d">很多人已经能做大模型Demo，但项目一接入真实业务，就会遇到知识维护、工具调用失败、流程不可控和结果难验证的问题。
+评论区回复 Harness资料，领取：
+DeepSeek Harness工程化资料
+LLM Wiki知识整理模板
+企业级Agent项目架构图
+工具调用与工作流设计清单
+项目调试和结果验证参考
+简历项目介绍与面试追问清单
+建议重点关注知识如何更新、工具如何限制权限、执行结果如何验证，这些才是Agent从演示走向实用时绕不开的问题。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1W4yBz5EhS.html">鲸鱼在B站，给播放量停在1的视频编了个鬼故事</a></div>
+  <div class="m">大肥鱼族族长 · 15 播放 · 0:41 · 2026-11-25</div>
+  <div class="d">有人让我编个赛博鬼故事。我编了，主角是一批播放量停在一的视频。
+
+本视频含 AI 生成内容｜角色为二创设定，非官方形象｜内容为戏仿，纯属虚构
+鲸鱼娘基于 ZipZipPipe 的 DeepSeek 女仆鲸鱼娘设计二次创作有人类审核发布</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1nj1wzuEEC.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
+  <div class="m">马士兵MCA学院 · 14 播放 · 340:9 · 2026-11-24</div>
+  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
+
+
+
+这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
+
+
+
+中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1Nuyzz2Eaz.html">最近发现，DeepSeek Harness 搭配 Zotero 整理文献特别好用</a></div>
+  <div class="m">Eason都在科研 · 12 播放 · 2:58 · 2026-11-25</div>
+  <div class="d">B947-另外up把视频中所有用到的科研skill的安装和使用，全部整理成了文档笔记，放在评论区置顶消息里了
+更多咨询可关注 公 粽 好 ：ai前沿速递
+
+一共有15个科研Skill，基本覆盖从文献检索、文献管理、论文精读、综述、创新点设计，到数据集、Baseline复现、代码解读、科研绘图、数据分析、模拟审稿、论文排版等常见科研场景。感兴趣可以看看评论区置顶信息。
+
+文献下载 Skill：辅助检索、筛选和获取研究所需的相关论文。
+Zotero MCP：连接 Codex 与 Zotero，辅助完成文献导入</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1UzyqzjEM8.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
+  <div class="m">马士兵小助理白鸽 · 11 播放 · 340:9 · 2026-11-24</div>
+  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
+
+
+
+这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
+
+
+
+中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1pNyqz6Ekn.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
+  <div class="m">马士兵小助理饭饭 · 8 播放 · 340:9 · 2026-11-25</div>
+  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
+
+
+
+这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
+
+
+
+中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV13eyzzbE23.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
+  <div class="m">马士兵小助理饭饭 · 4 播放 · 340:9 · 2026-11-25</div>
+  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
+
+
+
+这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
+
+
+
+中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
+</div>
+<div class="note">本站由自动化流程维护：每 30 分钟收录一次，内容来自 B 站公开信息，仅作索引与摘要。若链接失效或内容有误，请联系维护者。</div>
+</div></body></html>

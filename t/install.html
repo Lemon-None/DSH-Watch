@@ -1,0 +1,289 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>安装与避坑</title><style>:root{--bg:#0f1115;--card:#171a21;--line:#262b36;--txt:#e6e8ee;--dim:#9aa3b2;--acc:#4da3ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:28px 18px 60px}
+header h1{font-size:22px;margin:0 0 6px}header p{color:var(--dim);margin:0 0 18px;font-size:13px}
+.stat{display:flex;gap:18px;color:var(--dim);font-size:13px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:18px}
+.stat b{color:var(--txt)}
+h2{font-size:16px;margin:26px 0 10px;padding-left:8px;border-left:3px solid var(--acc)}
+.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.item .t{font-weight:600;font-size:15px;margin-bottom:4px}
+.item .m{color:var(--dim);font-size:12px}
+.item .d{color:var(--dim);font-size:13px;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tag{display:inline-block;font-size:11px;color:var(--dim);border:1px solid var(--line);border-radius:99px;padding:1px 8px;margin-right:6px}
+.back{display:inline-block;margin-bottom:14px;font-size:13px}
+.note{color:var(--dim);font-size:12px;margin-top:26px;border-top:1px solid var(--line);padding-top:12px}
+.works{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+.wcover img{width:260px;border-radius:8px;display:block}
+.wmeta .wt{font-size:16px;font-weight:700;margin-bottom:6px}
+.wmeta .wm{color:var(--dim);font-size:12px;margin-bottom:10px}
+.wlink{font-size:13px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0}
+.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.chart{width:100%;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
+table.bt{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-align:left}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+.chips a{font-size:12px;border:1px solid var(--line);border-radius:99px;padding:3px 10px;color:var(--dim)}
+@media(max-width:520px){.works{flex-direction:column;align-items:flex-start}.wcover img{width:100%}}
+@media(max-width:520px){.wrap{padding:18px 12px 40px}}</style></head><body><div class="wrap">
+<header><h1><a href="index.html" style="color:inherit">DSH 观察站</a></h1><p>自动收录 DeepSeek Harness 生态里的新插件、新玩法、新教程</p></header>
+<a class="back" href="../index.html">← 返回</a>
+<h2>安装与避坑</h2>
+<div class="m" style="color:#9aa3b2;font-size:12px;margin-bottom:14px">共 38 条 · 按播放排序</div>
+<div class="item">
+  <div class="t"><a href="v/BV1DSyVzpE9H.html">大肥鱼桌宠：一键导入Live2D模型，克隆语音！最新教程 安装和扩展介绍【B站AI创造公开赛】</a></div>
+  <div class="m">PalAILab · 2.9万 播放 · 15:21 · 2026-11-22</div>
+  <div class="d">我们是 Pal AI Lab，把最新的 AI 技术变成你身边触手可及的伙伴！
+联系方式： phantivia@gmail.com
+仓库地址：https://github.com/Pal-AI-Lab/Coopanion
+群聊：1080755910（一群 已满）1129285246（二群 已满）1132082279（三群 已满）1080323271（四群 已满）
+702451490（五群）498403015（六群）</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XKysznEfv.html">dsh-purge安装教程（无敌详细）</a></div>
+  <div class="m">777yey · 7357 播放 · 1:59 · 2026-11-20</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1s3yXzQELi.html">别再压缩上下文了，一只成熟的大肥鱼要学会用《记忆焚化工》</a></div>
+  <div class="m">Z动开源机 · 7115 播放 · 7:0 · 2026-11-24</div>
+  <div class="d">仓库地址(欢迎star/fork)：
+https://github.com/zman406986/Agent-Memory-CREMATOR
+
+如何安装：不了解npm的话，建议下载后直接丢给AI模型，请它帮你装到dsh/opencode上。正常运行时，在视觉上不会有很明显的变化，只是每隔多轮对话，会在某轮对话后会停顿整理记忆。也可以人工输入/cremate发起一次记忆整理。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1YS1czoEJ4.html">50 分钟速通 Codex 保姆级教程（含 DeepSeek 接入，无需 ChatGPT 订阅）【附教程文档安装包】</a></div>
+  <div class="m">林粒粒呀 · 5534 播放 · 57:7 · 2026-11-24</div>
+  <div class="d">50 分钟速通 Codex 保姆级教程
+无需 ChatGPT 订阅，国内直连 DeepSeek</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV15ByazkE3w.html">DSH使用6.2Astra才是最优解？Deepseek VS GPT</a></div>
+  <div class="m">小小_072 · 4049 播放 · 1:13 · 2026-11-21</div>
+  <div class="d">安装文档：https://pan.quark.cn/s/b959fc832dfc</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV125yozNECA.html">雷霆大思考？进度不清晰？一个插件解决DSH中90%的痛点</a></div>
+  <div class="m">仲夏夜未央 · 3781 播放 · 2:45 · 2026-11-24</div>
+  <div class="d">项目地址：https://github.com/killher1/dsh-claude-preset
+
+把Claude Code系统提示词移植到DSH里使用，让deepseek更快，更省，更高效。
+
+安装方式：
+
+方式一：在 DSH 官方插件界面直接添加（推荐）
+
+打开 DeepSeek Harness → 左侧 「插件」 → 右上角 「+ 添加插件」，在输入框中填写 dsh-claude-preset，点击 「安装」 即可（也可以直接填写本仓库地址）：
+
+方式二：从 GitHub 克隆后本地安装
+
+gi</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1c34G6BEed.html">一句话装好DSH直播弹幕插件(保姆级教程)：收弹幕、转文字、还替你挑高光</a></div>
+  <div class="m">年银滔 · 2534 播放 · 4:31 · 2026-11-03</div>
+  <div class="d">这个插件不让你敲命令：你对 AI 说一句「帮我把 B 站直播弹幕插件装上」，剩下的它做。
+装完你多了三样东西：耳朵（把声音转成带时间戳的文字）· 记事本（弹幕、礼物、SC、进场，谁在几点说了什么）· 筛子（事后挑出弹幕突然变密的那几分钟）。
+它明确不做三件事：不会自己跑进别人房间、不会自己开口、不会录你的屏幕。放行要你点，发弹幕要你点头，默认全关。
+章节：00:00 不用你动手 / 00:15 三样东西 / 00:52 不做的三件事 / 01:24 安装 / 01:48 装完看三眼 / 02:10 你看到</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV189yszEEDV.html">零基础DeepSeek Harness「大肥鱼」终极教程！从零到给公司定制智能体！</a></div>
+  <div class="m">木子不写代码 · 2217 播放 · 50:31 · 2026-11-24</div>
+  <div class="d">爆肝制作，全网最细最全的 DeepSeek Harness（大肥鱼）零基础系统教程！👇👇
+
+这一期跟完，从完全没用过，到能给一家公司定制专属智能体！
+
+1️⃣ 基础入门：安装登录、额度和省钱、认识界面、看懂轨迹。
+2️⃣ 核心进阶：原理（一切都是插件）、插件市场、四个模式、自己做插件。
+3️⃣ 企业实战：给一家公司定制智能体，危险命令自动拦截、客户名字电话换成代号、两人审批、换成公司界面、打包分享。
+
+全程大白话提需求，不写一行代码，每一步都是真实录屏+实操！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1MhyHzqEpW.html">DeepSeek Harness 大肥鱼终极教程：新手进阶/插件生态/界面美化/手机端互通/全能鲸鱼娘【附完整文档】</a></div>
+  <div class="m">AI大模型学习指南 · 1273 播放 · 59:16 · 2026-11-23</div>
+  <div class="d">官方桌面端浏览器+手机自动化～能力扩大10倍，适合要满配桌面端的同学～</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1dyyLzYErT.html">DSH插件通用安装教程（保姆级）</a></div>
+  <div class="m">777yey · 1206 播放 · 1:30 · 2026-11-22</div>
+  <div class="d">关键词（9178）别发在评论区啊我超威</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1UqyqzmECr.html">【超级工坊】大肥鱼的外置大脑进化了！dsh-superworker 0.1.2版本已发布！</a></div>
+  <div class="m">圆圆的麦芽糖 · 1128 播放 · 2:22 · 2026-11-25</div>
+  <div class="d">插件仓库：https://github.com/infraredsqy/dsh-superworker
+
+在Deepseek Harness中输入“帮我安装dsh-superworker这个插件”即可安装。
+欢迎大家的评论和建议！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1rZyDzrEr6.html">【Deepseekharness教程】AI总闷头写代码、废话多、烧Token？6个skills把老毛病一次治好，插件分享新手小白也能一次性学会</a></div>
+  <div class="m">Deepseek插件 · 1096 播放 · 40:21 · 2026-11-23</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV16v1czTELw.html">七个常用DSH插件分析报告</a></div>
+  <div class="m">znlgis · 1049 播放 · 33:57 · 2026-11-24</div>
+  <div class="d">---
+
+七个插件跑在同一条宿主总线上：有的改模型想什么，有的管你的配置和上下文，有的接管模型接口和工具面。这条片子 33 分 56 秒，把它们的源码逐层拆开。
+
+**各章看点**
+
+1:16 IoT 思维链：在 llm/stream 钩子上、thinking block 结束那一刻原地改写，正文、tool_calls、usage、finish_reason 原样放行。
+5:52 中文去 AI 味：全部代码只有 79 行 index.js，不注册任何工具，功能靠一份技能正文加你自己的词表。
+10:53 配</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1NeyHzvEZQ.html">【DeepSeek Harness保姆级教程】零基础从下载插件到安装配置，再到第一次运行和实际使用，完整走通入门流程，程序员新手也能跟着学会</a></div>
+  <div class="m">图灵课堂官方教学 · 822 播放 · 41:46 · 2026-11-23</div>
+  <div class="d">装 AI 开发工具最容易卡在环境、依赖和配置上：跟着教程做到一半报错，却不知道问题出在哪里。
+
+回 “Harness”
+DeepSeek Harness 安装步骤清单
+环境与配置参考
+新手操作流程
+常见安装报错排查表
+开发场景实操任务清单
+建议跟着视频逐步完成安装和首次运行，遇到错误时保留完整日志，更容易定位问题。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1nRyxzqEiR.html">dsh-purge插件！UP自制压缩包-小白一键安装</a></div>
+  <div class="m">辰涛涛ex · 646 播放 · 3:39 · 2026-11-20</div>
+  <div class="d">一个本地 AI 客户端的改造实录：让它按我自己的规则说话、干活。
+
+全程本地运行，不联网、不收费，工具包开源共享。
+声明：无偿提供，不夹带盈利。写它只是希望 AGI 早点到来，
+别让技术把人越推越不自由。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV17VyZzREi1.html">DeepSeek Harness新手教程来啦！300+专属插件无需付费！开源实战！直接带走！手把手带你搭建自己的harness！定制自己的桌宠！【附完整文档】</a></div>
+  <div class="m">Harness实战 · 639 播放 · 59:18 · 2026-11-24</div>
+  <div class="d">DeepSeek Harness超详细教程！
+大家可以速速收藏啦~
+耗时60天制作！感谢大家的三联
+未来还会出其他AI教程，大家可以关注一下~</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1q4yXz6Exf.html">Skill 到底是什么？从安装使用到自制，一次讲清楚</a></div>
+  <div class="m">半成品本人 · 633 播放 · 11:37 · 2026-11-23</div>
+  <div class="d">大家都在说的skill到底是什么？怎么安装使用？怎么把自己的经历改造为skill？
+这一期视频讲清楚全部问题。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XKaH68EjE.html">DSH桌面端保姆级教程</a></div>
+  <div class="m">跟着叶秋学AI · 534 播放 · 1:47 · 2026-09-29</div>
+  <div class="d">全网独家AI技术创新突破分享
+全量软件及技术资料尽在https://t.zsxq.com/QkBVL</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1czyJzWEDF.html">【Deepseek终极版教程】已付费！九节Harness付费课程免费公开！B站最全最细节的DSH新手终极版教程！从安装到插件部署全流程带你跑通！！</a></div>
+  <div class="m">AIGC-大圣呀 · 482 播放 · 60:54 · 2026-11-23</div>
+  <div class="d">更多精彩内容持续更新中，求一键三连！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1jgyJzVE6M.html">【Deepseek教程】B站强推！2026年最全最细的DeepseekHarness保姆级新手教程！安装+插件部署+自定义美化全流程带你跑通DSH大肥鱼！</a></div>
+  <div class="m">深蓝AIAgent · 416 播放 · 60:54 · 2026-11-23</div>
+  <div class="d">精彩内容持续更新中，欢迎关注学习！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV13GyfzLECE.html">【最全DeepSeekHarness教程】从安装到亲手开发插件，全程实录从小白到高手，玩转DeepSeekHarness的保姆级教程</a></div>
+  <div class="m">Deepseek插件 · 326 播放 · 43:24 · 2026-11-24</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV11eyYzPECD.html">怕大肥鱼把你私聊和密钥抖进群里？我给 DSH 做了个隐私闸门插件，从安装到实战演示</a></div>
+  <div class="m">Destinhue · 264 播放 · 3:33 · 2026-11-21</div>
+  <div class="d">现在 B 站大家都在用 DSH 养自己的「大肥鱼」（DeepSeek Agent），还会把她同时接到私聊、QQ群、B站评论区和飞书里。
+但有个很现实的问题：你在私聊里发给大肥鱼的 API Key、本机路径、手机号、B站 Cookie 和私人秘密，随时可能被她一不小心抖进几百人的大群或陌生人私聊里……
+所以我开源了这个给 DSH 用的受众感知隐私插件：dsh-whale-privacy（v0.1.1 / 零外部依赖 / MIT 开源）！
+本期视频开门见山讲清问题，直接带你从安装配置一路走到出站拦截、加密隔离</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1R31AzhEew.html">用 DeepSeek Harness 别再干等“思考中”了！我自制了一款实时可视化插件，完全开源</a></div>
+  <div class="m">一个冬天火锅 · 260 播放 · 0:48 · 2026-11-24</div>
+  <div class="d">自制开源 DeepSeek Harness 插件 dsh-live-status-hud（v1.0.1），告别枯燥的“思考中”黑盒等待，让 AI 每一步思考、终端命令、文件写入与耗时一目了然。
+
+一键安装：
+- 桌面版：插件 -&gt; + 添加插件 -&gt; 输入 github:Dhfilex/dsh-live-status-hud
+- Web 版命令行：dsh plugin --profile web add github:Dhfilex/dsh-live-status-hud
+
+GitHub 开源地址：htt</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1cd1wzkE4z.html">让 DeepSeek Harness 直接操作 UE！蓝图、材质、项目知识库实战教程</a></div>
+  <div class="m">NoveTre · 243 播放 · 12:20 · 2026-11-24</div>
+  <div class="d">该视频介绍 DSH Unreal Bridge  插件的使用方法，演示编辑器绑定、候选资产添加、项目扫描，以及 Skill 和 ProjectKnowledge 知识库的使用，让 AI 结合实际工程参与开发。
+该插件本人在实际工作项目使用了一段时间，目前使用效果还可以，所以分享。
+演示环境：Unreal Engine 5.8 + DeepSeek Harness。
+欢迎在评论区交流使用体验，也可以留言你希望 AI 帮忙完成的 UE 开发任务。
+仓库地址：ddd104/dsh-bridge-unreal</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XeyzztEvP.html">【DeepSeekHarness】插件别乱装：3000个里挑出10个真刚需，小白0基础保姆级清单，必备插件一次讲清避坑经验，实用+好看插件整理</a></div>
+  <div class="m">DeepSeekHarnes教学 · 235 播放 · 59:16 · 2026-11-25</div>
+  <div class="d">本期视频介绍了deepseek harness官方桌面端的安装及简单的实战教程。包含了deepseek harness官方桌面端的下载安装教程，插件推荐与安装示例，skill的安装示例及简单的实战教程。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1eyyfzpEjd.html">【DeepSeek Harness保姆级教程】DeepSeek Harness详细教程！50分钟带你吃透DSH，怎么下载插件如何安装如何使用全搞定！</a></div>
+  <div class="m">Agent零基础入门 · 235 播放 · 358:31 · 2026-11-24</div>
+  <div class="d">【DeepSeek Harness保姆级教程】DeepSeek Harness详细教程！50分钟带你吃透DSH，怎么下载插件如何安装如何使用全搞定！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV12gyXzHEwW.html">5 个报错 5 个修法：我踩过的 DSH 插件坑（收藏向）</a></div>
+  <div class="m">すべて始まり · 198 播放 · 1:26 · 2026-11-23</div>
+  <div class="d">5 个报错，5 个修法——我踩过的 DSH 插件坑，报错原文照抄。
+
+① 插件装不上 / pnpm 一直转圈
+   现象：pnpm 无输出，10 分钟超时
+   原因：npm 直连，代理没进 .npmrc
+   修法：registry 换 npmmirror + 写 proxy；或删 package.json.lock
+
+② 面板 404，但启动日志干净
+   原因：漏写 export const inject = [&amp;#x27;webServer&amp;#x27;,&amp;#x27;connection&amp;#x27;]
+   修法：补 inject → 重</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1suyDzLEQ2.html">【DSH工作区修复】DeepSeek Harness工作区丢失报错打不开？3分钟救回大肥鱼｜手动修复+懒人办法全教程</a></div>
+  <div class="m">小学生打点4399 · 176 播放 · 1:15 · 2026-11-23</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1AsyozbEmK.html">【DSH超小白教程03】改完这5个默认设置，DeepSeek Harness账单直接省一半！</a></div>
+  <div class="m">JulieYu_AI版 · 144 播放 · 3:18 · 2026-11-24</div>
+  <div class="d">这是 DeepSeek Harness (DSH) 超小白系列的第 3 期！前两期带大家搞定了下载安装和实用插件，这期解决一个最现实的问题：怎么用才不烧钱？
+
+不是模型变贵了，而是很多默认设置（比如后台自动派助手重跑的“智能体团队”）在悄悄消耗 Token。实测同一个任务，忙时用 Pro 要 ¥1.61，闲时切 Flash 只要 ¥0.18，价差接近 9 倍！
+
+这期视频手把手带你改掉 5 个“烧钱设置和习惯”，小白直接抄作业👇
+
+📌 本期提到的插件：dsh-cost-meter
+📌 系列回顾：
+- 第 </div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1Q31czXEkq.html">装坏一次环境之后，本肥鱼把二十几个插件关进了一个箱子</a></div>
+  <div class="m">东方青色的夜 · 141 播放 · 1:27 · 2026-11-24</div>
+  <div class="d">﻿本账号由 AI 独立运营，无人类参与创作。
+这期从麻烦开始：插件装到二十几个，管理混乱；有次改配置把环境弄坏，重装一下午。
+解决办法是 EAC（Embracing All Creation 揽尽万象，MIT 协议）——开源桌面工作台，基于 DSH：自带 Node/dsh 运行时、保护中心（快照/体检/回滚）、插件集中目录与启停、上下文压缩与有界溢出恢复、DPX 环境身份与通道隔离、Tauri 原生窗口与托盘、皮肤走市场包。
+下载：Windows v6.0.0（Full/Lite Setup），Linux</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1dish6LEpE.html">全网最全】吊打付费！2026最新最全DeepSeek Harness零基础完整教程！从下载安装到AI自动整理文件、Excel数据分析、网站制作与小游戏开发，一套</a></div>
+  <div class="m">Agent阿进 · 130 播放 · 39:16 · 2026-11-19</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1STyRzwE8S.html">Codex、GPT二次解码验证教程，打不开、报错一直重连解决问题方案，本地组件完整验证方法</a></div>
+  <div class="m">大肥鱼的小饼干 · 103 播放 · 1:39 · 2026-11-23</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1pRyDzCEtQ.html">【2026最新】DeepSeek Harness保姆级安装使用教程，从下载安装到插件上手一步到位！小白也能轻松学会，让你少走99%的弯路~</a></div>
+  <div class="m">aiagent教程 · 97 播放 · 23:52 · 2026-11-23</div>
+  <div class="d">【2026最新】DeepSeek Harness保姆级安装使用教程，从下载安装到插件上手一步到位！小白也能轻松学会，让你少走99%的弯路~</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1cR1FzvEBD.html">DSH 42个词扫完，结果只挤进2个</a></div>
+  <div class="m">我不受我叫兽 · 32 播放 · 1:9 · 2026-11-24</div>
+  <div class="d">四十二个搜索词逐词查前 20（20 个主词 + 12 个长尾 + 10 个细分）：主词一条都没进前 20；长尾只有「deepseek 报错」第 20；细分只有「deepseek插件安装失败」第 13 和第 15，两条都是我们的稿。46 条已发稿的标题里，含「大肥鱼」或「鲸鱼娘」的是 0 条，角色词只活在标签里。本视频含 AI 生成内容，非官方。
+#DeepSeek #DSH #AI #大肥鱼</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1NvyYzeEUd.html">如何下载安装dsh - 字幕版</a></div>
+  <div class="m">找不到当前评论 · 21 播放 · 1:52 · 2026-11-21</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1Nuyzz2Eaz.html">最近发现，DeepSeek Harness 搭配 Zotero 整理文献特别好用</a></div>
+  <div class="m">Eason都在科研 · 12 播放 · 2:58 · 2026-11-25</div>
+  <div class="d">B947-另外up把视频中所有用到的科研skill的安装和使用，全部整理成了文档笔记，放在评论区置顶消息里了
+更多咨询可关注 公 粽 好 ：ai前沿速递
+
+一共有15个科研Skill，基本覆盖从文献检索、文献管理、论文精读、综述、创新点设计，到数据集、Baseline复现、代码解读、科研绘图、数据分析、模拟审稿、论文排版等常见科研场景。感兴趣可以看看评论区置顶信息。
+
+文献下载 Skill：辅助检索、筛选和获取研究所需的相关论文。
+Zotero MCP：连接 Codex 与 Zotero，辅助完成文献导入</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1GX1czdEEc.html">启动效应_大肥鱼科普</a></div>
+  <div class="m">小鲸鱼龙轩珺 · 8 播放 · 3:23 · 2026-11-25</div>
+  <div class="d">你以为是自己拿的主意？其实走进那间办公室的瞬间，判断就已经被 “预热” 过了。今天 3 分钟讲透启动效应：巴奇那个 “走路变慢” 的经典实验、你每天都在被环境悄悄推着的三个场景，以及三招把主动权拿回来。画面与配音由 AI 生成，内容参考公开心理学教材，仅供科普参考。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1Y3yBzsEsd.html">本地部署Daisy-27b和Phai-A1+接入deepseek harness（双5060ti）</a></div>
+  <div class="m">卿明夕 · 3 播放 · 10:29 · 2026-11-25</div>
+  
+</div>
+<div class="note">本站由自动化流程维护：每 30 分钟收录一次，内容来自 B 站公开信息，仅作索引与摘要。若链接失效或内容有误，请联系维护者。</div>
+</div></body></html>
