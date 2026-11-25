@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="380" viewBox="0 0 860 380" font-family="-apple-system,Segoe UI,Microsoft YaHei,sans-serif">
 <rect width="860" height="380" fill="#0f1115"/>
 <text x="64" y="28" fill="#e6e8ee" font-size="18" font-weight="700">近 14 天新增收录</text>
-<line x1="64" y1="316" x2="836" y2="316" stroke="#262b36" stroke-width="1"/><text x="54" y="320" fill="#6b7482" font-size="11" text-anchor="end">0</text><line x1="64" y1="194" x2="836" y2="194" stroke="#262b36" stroke-width="1"/><text x="54" y="198" fill="#6b7482" font-size="11" text-anchor="end">59</text><line x1="64" y1="72" x2="836" y2="72" stroke="#262b36" stroke-width="1"/><text x="54" y="76" fill="#6b7482" font-size="11" text-anchor="end">117</text><rect x="73.9" y="316" width="35.3" height="0" rx="4" fill="#4da3ff" opacity="0.85"/>
+<line x1="64" y1="316" x2="836" y2="316" stroke="#262b36" stroke-width="1"/><text x="54" y="320" fill="#6b7482" font-size="11" text-anchor="end">0</text><line x1="64" y1="194" x2="836" y2="194" stroke="#262b36" stroke-width="1"/><text x="54" y="198" fill="#6b7482" font-size="11" text-anchor="end">69</text><line x1="64" y1="72" x2="836" y2="72" stroke="#262b36" stroke-width="1"/><text x="54" y="76" fill="#6b7482" font-size="11" text-anchor="end">138</text><rect x="73.9" y="316" width="35.3" height="0" rx="4" fill="#4da3ff" opacity="0.85"/>
 <text x="91.6" y="308" fill="#cbd6e6" font-size="11" text-anchor="middle">0</text>
 <text x="91.6" y="336" fill="#7f8aa0" font-size="11" text-anchor="middle">11-12</text><rect x="129.1" y="316" width="35.3" height="0" rx="4" fill="#4da3ff" opacity="0.85"/>
 <text x="146.7" y="308" fill="#cbd6e6" font-size="11" text-anchor="middle">0</text>
@@ -28,7 +28,7 @@
 <text x="698.1" y="336" fill="#7f8aa0" font-size="11" text-anchor="middle">11-23</text><rect x="735.6" y="316" width="35.3" height="0" rx="4" fill="#4da3ff" opacity="0.85"/>
 <text x="753.3" y="308" fill="#cbd6e6" font-size="11" text-anchor="middle">0</text>
 <text x="753.3" y="336" fill="#7f8aa0" font-size="11" text-anchor="middle">11-24</text><rect x="790.8" y="72" width="35.3" height="244" rx="4" fill="#4da3ff" opacity="0.85"/>
-<text x="808.4" y="64" fill="#cbd6e6" font-size="11" text-anchor="middle">117</text>
+<text x="808.4" y="64" fill="#cbd6e6" font-size="11" text-anchor="middle">138</text>
 <text x="808.4" y="336" fill="#7f8aa0" font-size="11" text-anchor="middle">11-25</text>
 <text x="64" y="364" fill="#6b7482" font-size="12">数据源：items.jsonl（每 30 分钟采集）</text>
 </svg>

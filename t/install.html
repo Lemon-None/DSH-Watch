@@ -20,8 +20,11 @@ h2{font-size:16px;margin:26px 0 10px;padding-left:8px;border-left:3px solid var(
 .wmeta .wt{font-size:16px;font-weight:700;margin-bottom:6px}
 .wmeta .wm{color:var(--dim);font-size:12px;margin-bottom:10px}
 .wlink{font-size:13px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0}
-.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;margin:10px 0}
+.gallery figure{margin:0}
+.gallery img{width:100%;border-radius:8px;border:1px solid var(--line);display:block;transition:transform .15s}
+.gallery a:hover img{transform:translateY(-2px);border-color:var(--acc)}
+.gallery .cap{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.5}
 .chart{width:100%;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
 table.bt{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
 table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-align:left}
@@ -32,7 +35,7 @@ table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-ali
 <header><h1><a href="index.html" style="color:inherit">DSH 观察站</a></h1><p>自动收录 DeepSeek Harness 生态里的新插件、新玩法、新教程</p></header>
 <a class="back" href="../index.html">← 返回</a>
 <h2>安装与避坑</h2>
-<div class="m" style="color:#9aa3b2;font-size:12px;margin-bottom:14px">共 38 条 · 按播放排序</div>
+<div class="m" style="color:#9aa3b2;font-size:12px;margin-bottom:14px">共 36 条 · 按播放排序</div>
 <div class="item">
   <div class="t"><a href="v/BV1DSyVzpE9H.html">大肥鱼桌宠：一键导入Live2D模型，克隆语音！最新教程 安装和扩展介绍【B站AI创造公开赛】</a></div>
   <div class="m">PalAILab · 2.9万 播放 · 15:21 · 2026-11-22</div>
@@ -250,10 +253,6 @@ GitHub 开源地址：htt</div>
   <div class="m">Agent阿进 · 130 播放 · 39:16 · 2026-11-19</div>
   
 </div><div class="item">
-  <div class="t"><a href="v/BV1STyRzwE8S.html">Codex、GPT二次解码验证教程，打不开、报错一直重连解决问题方案，本地组件完整验证方法</a></div>
-  <div class="m">大肥鱼的小饼干 · 103 播放 · 1:39 · 2026-11-23</div>
-  
-</div><div class="item">
   <div class="t"><a href="v/BV1pRyDzCEtQ.html">【2026最新】DeepSeek Harness保姆级安装使用教程，从下载安装到插件上手一步到位！小白也能轻松学会，让你少走99%的弯路~</a></div>
   <div class="m">aiagent教程 · 97 播放 · 23:52 · 2026-11-23</div>
   <div class="d">【2026最新】DeepSeek Harness保姆级安装使用教程，从下载安装到插件上手一步到位！小白也能轻松学会，让你少走99%的弯路~</div>
@@ -276,10 +275,6 @@ GitHub 开源地址：htt</div>
 
 文献下载 Skill：辅助检索、筛选和获取研究所需的相关论文。
 Zotero MCP：连接 Codex 与 Zotero，辅助完成文献导入</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1GX1czdEEc.html">启动效应_大肥鱼科普</a></div>
-  <div class="m">小鲸鱼龙轩珺 · 8 播放 · 3:23 · 2026-11-25</div>
-  <div class="d">你以为是自己拿的主意？其实走进那间办公室的瞬间，判断就已经被 “预热” 过了。今天 3 分钟讲透启动效应：巴奇那个 “走路变慢” 的经典实验、你每天都在被环境悄悄推着的三个场景，以及三招把主动权拿回来。画面与配音由 AI 生成，内容参考公开心理学教材，仅供科普参考。</div>
 </div><div class="item">
   <div class="t"><a href="v/BV1Y3yBzsEsd.html">本地部署Daisy-27b和Phai-A1+接入deepseek harness（双5060ti）</a></div>
   <div class="m">卿明夕 · 3 播放 · 10:29 · 2026-11-25</div>

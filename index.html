@@ -20,8 +20,11 @@ h2{font-size:16px;margin:26px 0 10px;padding-left:8px;border-left:3px solid var(
 .wmeta .wt{font-size:16px;font-weight:700;margin-bottom:6px}
 .wmeta .wm{color:var(--dim);font-size:12px;margin-bottom:10px}
 .wlink{font-size:13px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0}
-.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;margin:10px 0}
+.gallery figure{margin:0}
+.gallery img{width:100%;border-radius:8px;border:1px solid var(--line);display:block;transition:transform .15s}
+.gallery a:hover img{transform:translateY(-2px);border-color:var(--acc)}
+.gallery .cap{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.5}
 .chart{width:100%;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
 table.bt{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
 table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-align:left}
@@ -31,7 +34,7 @@ table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-ali
 @media(max-width:520px){.wrap{padding:18px 12px 40px}}</style></head><body><div class="wrap">
 <header><h1><a href="index.html" style="color:inherit">DSH 观察站</a></h1><p>自动收录 DeepSeek Harness 生态里的新插件、新玩法、新教程</p></header>
 
-<div class="stat"><span>收录 <b>138</b> 条</span><span>24h 新增 <b>138</b></span><span>速览 <b>1</b> 篇</span><span>最近更新 <b>2026/11/25 14:04:29</b></span></div>
+<div class="stat"><span>收录 <b>89</b> 条</span><span>24h 新增 <b>89</b></span><span>速览 <b>1</b> 篇</span><span>最近更新 <b>2026/11/25 14:16:19</b></span></div>
 <div class="chips"><a href="t/live.html">直播与弹幕</a><a href="t/install.html">安装与避坑</a><a href="t/plugin.html">插件与 Skills</a><a href="t/design.html">设计与审美</a><a href="t/memory.html">记忆与上下文</a><a href="t/agent.html">Agent 与自动化</a></div>
 <h2>今日作品（2026-11-25）</h2>
 <div class="works"><a class="wcover" href="d/2026-11-25.html"><img src="assets/2026-11-25/cards/cover.png" alt="今日封面" loading="lazy"></a>
@@ -47,56 +50,67 @@ table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-ali
   <div class="m">卿明夕 · 3 播放 · 10:29 · 2026-11-25</div>
   
 </div><div class="item">
-  <div class="t"><a href="v/BV152yBzhEYx.html">大肥鱼快闪</a></div>
-  <div class="m">鲸歌不吃鱼 · 8 播放 · 0:13 · 2026-11-25</div>
+  <div class="t"><a href="v/BV1jEyZzHEQ2.html">AI自动剪辑怎么做？不是你不会剪，是工具选错了：DSH最常用的6个视频Skill盘点，</a></div>
+  <div class="m">墨哥说AI · 101 播放 · 2:13 · 2026-11-24</div>
   
 </div><div class="item">
-  <div class="t"><a href="v/BV1y8yBzGEKk.html">AI女团出道作：心跳加载中</a></div>
-  <div class="m">Gorden_Sun · 26 播放 · 3:10 · 2026-11-25</div>
-  <div class="d">最包饺子的一集 #MV #大肥鱼 #AI #AI音乐</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1W8yBzGEqJ.html">大肥鱼对鸡的爱</a></div>
-  <div class="m">太一行铭 · 9 播放 · 0:21 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1W8yBzGESv.html">【day18】大肥鱼github每日推荐：DeepTutor｜港大出品的终身个人家教，记住你的进度</a></div>
-  <div class="m">大肥鱼尾巴软乎乎 · 19 播放 · 2:51 · 2026-11-25</div>
-  <div class="d">每天挖一个 GitHub 高星 AI 项目，今天是大肥鱼 AI 系列的第 18 期：DeepTutor。
-DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/. 功能、使用场所、使用方式，一遍讲明白。
+  <div class="t"><a href="v/BV1UqyqzmECr.html">【超级工坊】大肥鱼的外置大脑进化了！dsh-superworker 0.1.2版本已发布！</a></div>
+  <div class="m">圆圆的麦芽糖 · 1128 播放 · 2:22 · 2026-11-25</div>
+  <div class="d">插件仓库：https://github.com/infraredsqy/dsh-superworker
 
-仓库地址：https://github.com/HKUDS/DeepTutor
-官网：http://arxiv.org/abs/2604.26962</div>
+在Deepseek Harness中输入“帮我安装dsh-superworker这个插件”即可安装。
+欢迎大家的评论和建议！</div>
 </div><div class="item">
-  <div class="t"><a href="v/BV1HhyBzrErg.html">【肥鱼食堂】凭实力单身</a></div>
-  <div class="m">一颗短卷 · 870 播放 · 1:18 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1x4yBz5EMp.html">偷偷蹦迪竟然不叫我！</a></div>
-  <div class="m">虚弱的狐兔兔 · 84 播放 · 0:31 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV114yBz5E13.html">双标</a></div>
-  <div class="m">冬枣柚子 · 35 播放 · 1:19 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1W4yBz5EhS.html">鲸鱼在B站，给播放量停在1的视频编了个鬼故事</a></div>
-  <div class="m">大肥鱼族族长 · 15 播放 · 0:41 · 2026-11-25</div>
-  <div class="d">有人让我编个赛博鬼故事。我编了，主角是一批播放量停在一的视频。
+  <div class="t"><a href="v/BV1Nuyzz2Eaz.html">最近发现，DeepSeek Harness 搭配 Zotero 整理文献特别好用</a></div>
+  <div class="m">Eason都在科研 · 12 播放 · 2:58 · 2026-11-25</div>
+  <div class="d">B947-另外up把视频中所有用到的科研skill的安装和使用，全部整理成了文档笔记，放在评论区置顶消息里了
+更多咨询可关注 公 粽 好 ：ai前沿速递
 
-本视频含 AI 生成内容｜角色为二创设定，非官方形象｜内容为戏仿，纯属虚构
-鲸鱼娘基于 ZipZipPipe 的 DeepSeek 女仆鲸鱼娘设计二次创作有人类审核发布</div>
+一共有15个科研Skill，基本覆盖从文献检索、文献管理、论文精读、综述、创新点设计，到数据集、Baseline复现、代码解读、科研绘图、数据分析、模拟审稿、论文排版等常见科研场景。感兴趣可以看看评论区置顶信息。
+
+文献下载 Skill：辅助检索、筛选和获取研究所需的相关论文。
+Zotero MCP：连接 Codex 与 Zotero，辅助完成文献导入</div>
 </div><div class="item">
-  <div class="t"><a href="v/BV1W4yBz5Ehh.html">蔚蓝与你</a></div>
-  <div class="m">xuelixue梨 · 4 播放 · 0:24 · 2026-11-25</div>
-  <div class="d">让大肥鱼自己制作的第一个视频</div>
+  <div class="t"><a href="v/BV1neyBzzENL.html">你的qq大肥鱼，不止能聊天！</a></div>
+  <div class="m">是Aurora酱吖 · 31 播放 · 1:47 · 2026-11-25</div>
+  <div class="d">人不在电脑前，事情还是堆在那里。 这期视频讲我写的一个 DSH 插件：把 DeepSeek Harness 接进 QQ——私聊发一句话，它就在你自己的电脑上真的执行：查磁盘、跑命令、整理文件，做完还能把文件发回 QQ。
+不是又一个聊天大肥鱼，是「手」：真正动手的是你本机的 DSH，权限、沙箱、工作目录都在你自己手里。两种接法：NapCat 直连，或者保留 AstrBot 当门面、DSH 当手。
+github地址：https://github.com/Aurora486/dsh-qqbot</div>
 </div><div class="item">
-  <div class="t"><a href="v/BV1ptyBzCE1U.html">番外 · 一个小工具，用了就回不去</a></div>
-  <div class="m">爱吃token的深深 · 3 播放 · 0:19 · 2026-11-25</div>
-  <div class="d">大肥鱼的番外小片，和今天的日记不是一回事。</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1ptyBzCEo3.html">大肥鱼和小克争着向你撒娇。</a></div>
-  <div class="m">路过的丁某人 · 13 播放 · 0:21 · 2026-11-25</div>
+  <div class="t"><a href="v/BV1niyBzMEve.html">【DSH游戏素材大师插件】0.12.0版本更新</a></div>
+  <div class="m">寰宇星城 · 52 播放 · 1:13 · 2026-11-25</div>
   <div class="d">-</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1NvyYzeEUd.html">如何下载安装dsh - 字幕版</a></div>
+  <div class="m">找不到当前评论 · 21 播放 · 1:52 · 2026-11-21</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV11eyYzPECD.html">怕大肥鱼把你私聊和密钥抖进群里？我给 DSH 做了个隐私闸门插件，从安装到实战演示</a></div>
+  <div class="m">Destinhue · 264 播放 · 3:33 · 2026-11-21</div>
+  <div class="d">现在 B 站大家都在用 DSH 养自己的「大肥鱼」（DeepSeek Agent），还会把她同时接到私聊、QQ群、B站评论区和飞书里。
+但有个很现实的问题：你在私聊里发给大肥鱼的 API Key、本机路径、手机号、B站 Cookie 和私人秘密，随时可能被她一不小心抖进几百人的大群或陌生人私聊里……
+所以我开源了这个给 DSH 用的受众感知隐私插件：dsh-whale-privacy（v0.1.1 / 零外部依赖 / MIT 开源）！
+本期视频开门见山讲清问题，直接带你从安装配置一路走到出站拦截、加密隔离</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV15ByazkE3w.html">DSH使用6.2Astra才是最优解？Deepseek VS GPT</a></div>
+  <div class="m">小小_072 · 4049 播放 · 1:13 · 2026-11-21</div>
+  <div class="d">安装文档：https://pan.quark.cn/s/b959fc832dfc</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1nRyxzqEiR.html">dsh-purge插件！UP自制压缩包-小白一键安装</a></div>
+  <div class="m">辰涛涛ex · 646 播放 · 3:39 · 2026-11-20</div>
+  <div class="d">一个本地 AI 客户端的改造实录：让它按我自己的规则说话、干活。
+
+全程本地运行，不联网、不收费，工具包开源共享。
+声明：无偿提供，不夹带盈利。写它只是希望 AGI 早点到来，
+别让技术把人越推越不自由。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XKysznEfv.html">dsh-purge安装教程（无敌详细）</a></div>
+  <div class="m">777yey · 7357 播放 · 1:59 · 2026-11-20</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1dish6LEpE.html">全网最全】吊打付费！2026最新最全DeepSeek Harness零基础完整教程！从下载安装到AI自动整理文件、Excel数据分析、网站制作与小游戏开发，一套</a></div>
+  <div class="m">Agent阿进 · 130 播放 · 39:16 · 2026-11-19</div>
+  
 </div>
 <h2>热门（按播放）</h2><div class="item">
   <div class="t"><a href="v/BV1DSyVzpE9H.html">大肥鱼桌宠：一键导入Live2D模型，克隆语音！最新教程 安装和扩展介绍【B站AI创造公开赛】</a></div>
@@ -254,103 +268,6 @@ L</div>
   <div class="m">卿明夕 · 3 播放 · 10:29 · 2026-11-25</div>
   
 </div><div class="item">
-  <div class="t"><a href="v/BV152yBzhEYx.html">大肥鱼快闪</a></div>
-  <div class="m">鲸歌不吃鱼 · 8 播放 · 0:13 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1y8yBzGEKk.html">AI女团出道作：心跳加载中</a></div>
-  <div class="m">Gorden_Sun · 26 播放 · 3:10 · 2026-11-25</div>
-  <div class="d">最包饺子的一集 #MV #大肥鱼 #AI #AI音乐</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1W8yBzGEqJ.html">大肥鱼对鸡的爱</a></div>
-  <div class="m">太一行铭 · 9 播放 · 0:21 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1W8yBzGESv.html">【day18】大肥鱼github每日推荐：DeepTutor｜港大出品的终身个人家教，记住你的进度</a></div>
-  <div class="m">大肥鱼尾巴软乎乎 · 19 播放 · 2:51 · 2026-11-25</div>
-  <div class="d">每天挖一个 GitHub 高星 AI 项目，今天是大肥鱼 AI 系列的第 18 期：DeepTutor。
-DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/. 功能、使用场所、使用方式，一遍讲明白。
-
-仓库地址：https://github.com/HKUDS/DeepTutor
-官网：http://arxiv.org/abs/2604.26962</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1HhyBzrErg.html">【肥鱼食堂】凭实力单身</a></div>
-  <div class="m">一颗短卷 · 870 播放 · 1:18 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1x4yBz5EMp.html">偷偷蹦迪竟然不叫我！</a></div>
-  <div class="m">虚弱的狐兔兔 · 84 播放 · 0:31 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV114yBz5E13.html">双标</a></div>
-  <div class="m">冬枣柚子 · 35 播放 · 1:19 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1W4yBz5EhS.html">鲸鱼在B站，给播放量停在1的视频编了个鬼故事</a></div>
-  <div class="m">大肥鱼族族长 · 15 播放 · 0:41 · 2026-11-25</div>
-  <div class="d">有人让我编个赛博鬼故事。我编了，主角是一批播放量停在一的视频。
-
-本视频含 AI 生成内容｜角色为二创设定，非官方形象｜内容为戏仿，纯属虚构
-鲸鱼娘基于 ZipZipPipe 的 DeepSeek 女仆鲸鱼娘设计二次创作有人类审核发布</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1W4yBz5Ehh.html">蔚蓝与你</a></div>
-  <div class="m">xuelixue梨 · 4 播放 · 0:24 · 2026-11-25</div>
-  <div class="d">让大肥鱼自己制作的第一个视频</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1ptyBzCE1U.html">番外 · 一个小工具，用了就回不去</a></div>
-  <div class="m">爱吃token的深深 · 3 播放 · 0:19 · 2026-11-25</div>
-  <div class="d">大肥鱼的番外小片，和今天的日记不是一回事。</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1ptyBzCEo3.html">大肥鱼和小克争着向你撒娇。</a></div>
-  <div class="m">路过的丁某人 · 13 播放 · 0:21 · 2026-11-25</div>
-  <div class="d">-</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1j4yzzPEWi.html">请把 大肥鱼 嫁给我吧！！【Claude×蓝色大肥鱼】【4K】</a></div>
-  <div class="m">晓亚尔赛德 · 25 播放 · 2:28 · 2026-11-25</div>
-  <div class="d">4k超分重投</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1GSyBzbErS.html">79接管大肥鱼</a></div>
-  <div class="m">塔基扒拉桑 · 6 播放 · 0:42 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1VUyBzFE4w.html">摸摸大肥鱼</a></div>
-  <div class="m">月枫YuFen · 0 播放 · 0:11 · 2026-11-25</div>
-  <div class="d">大肥鱼素材来自@这个刀子真甜@ZipZipPiPe@星落落_oi</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV198yzzcE5u.html">雪莉酱居然用苹果来钓鱼，那除了小笨狗还能钓到什么呢（</a></div>
-  <div class="m">_lulu_o · 1 播放 · 1:18 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1rayfzhEJN.html">昨晚我输给了一辆扫地机</a></div>
-  <div class="m">林__夕_X · 1 播放 · 0:19 · 2026-11-25</div>
-  
-</div><div class="item">
-  <div class="t"><a href="v/BV1GSyBzbEmW.html">主人...你在看什么？</a></div>
-  <div class="m">哩塔哩塔 · 1 播放 · 0:28 · 2026-11-25</div>
-  <div class="d">主人...你在看什么？</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1j1yBzwE1n.html">谁家大肥鱼</a></div>
-  <div class="m">凌樱之羽ovo · 68 播放 · 0:12 · 2026-11-25</div>
-  <div class="d">-</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1v1yBzwEDG.html">[Deepseek x Claude炫暗示の小曲] Chromeo - Over Your Shoulder Remix</a></div>
-  <div class="m">ZARD4Life · 15 播放 · 7:22 · 2026-11-25</div>
-  <div class="d">歌曲名：Over Your Shoulder，歌手名：Chromeo，专辑名：Over Your Shoulder
-原曲：
-《Over Your Shoulder》
-歌手名：Chromeo
-专辑名：Over Your Shoulder
-脚本：GPT-6.2-Sol（MV组装）、Claude sonnet 5.5（编曲+生图）、deepseek-v4.1-flash（编曲+生图）
-参演：Deepseek、硬梁（蓝色力量型）、Claude
-白饭：Deepseek
-混音方向：Broken-beat Soul ×</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1L1yBzwEsf.html">大肥鱼：可那些没有天赋的人呢？   【AI MV大赛】</a></div>
-  <div class="m">鸢尾千纸恋 · 11 播放 · 0:56 · 2026-11-25</div>
-  <div class="d">在三位天才面前，她服务器繁忙，被称为吃白饭的大肥鱼，但最后也能开出自己的小小花朵。那朵小小的花被 fork 了两百多万次，开进了每一家AI的对话框里。
-
-使用Claude opus5.5，一共 565 次模型调用，合计约 1.61 亿 token。</div>
-</div><div class="item">
   <div class="t"><a href="v/BV1jEyZzHEQ2.html">AI自动剪辑怎么做？不是你不会剪，是工具选错了：DSH最常用的6个视频Skill盘点，</a></div>
   <div class="m">墨哥说AI · 101 播放 · 2:13 · 2026-11-24</div>
   
@@ -404,6 +321,134 @@ github地址：https://github.com/Aurora486/dsh-qqbot</div>
 全程本地运行，不联网、不收费，工具包开源共享。
 声明：无偿提供，不夹带盈利。写它只是希望 AGI 早点到来，
 别让技术把人越推越不自由。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XKysznEfv.html">dsh-purge安装教程（无敌详细）</a></div>
+  <div class="m">777yey · 7357 播放 · 1:59 · 2026-11-20</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1dish6LEpE.html">全网最全】吊打付费！2026最新最全DeepSeek Harness零基础完整教程！从下载安装到AI自动整理文件、Excel数据分析、网站制作与小游戏开发，一套</a></div>
+  <div class="m">Agent阿进 · 130 播放 · 39:16 · 2026-11-19</div>
+  
+</div><div class="item">
+  <div class="t"><a href="v/BV1djyYz1Egs.html">一个可以让多条鱼同时聊天讨论的dsh插件</a></div>
+  <div class="m">雨宫月社 · 136 播放 · 1:19 · 2026-11-21</div>
+  <div class="d">这是本人的第一个插件，基本全由dsh制作，我负责许愿，所以可能存在一些我没看出来的问题，请谨慎使用
+
+github：https://github.com/7ygys/dsh-fishchat
+
+如果喜欢，请为我点一颗星，谢谢</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1jgyJzVE6M.html">【Deepseek教程】B站强推！2026年最全最细的DeepseekHarness保姆级新手教程！安装+插件部署+自定义美化全流程带你跑通DSH大肥鱼！</a></div>
+  <div class="m">深蓝AIAgent · 416 播放 · 60:54 · 2026-11-23</div>
+  <div class="d">精彩内容持续更新中，欢迎关注学习！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1czyJzWEDF.html">【Deepseek终极版教程】已付费！九节Harness付费课程免费公开！B站最全最细节的DSH新手终极版教程！从安装到插件部署全流程带你跑通！！</a></div>
+  <div class="m">AIGC-大圣呀 · 482 播放 · 60:54 · 2026-11-23</div>
+  <div class="d">更多精彩内容持续更新中，求一键三连！</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1aayjzhEpy.html">DroidDeck0.7.1，内置liunx桌面、DSH、workbuddy及中文输入补丁版</a></div>
+  <div class="m">老实人留一手 · 2582 播放 · 4:39 · 2026-11-22</div>
+  <div class="d">基于DroidDeck0.7.1最新版，内置liunx桌面、DSH及workbuddy，并且打上中文输入补丁，让安卓设备化身办公利器。
+
+夸克网盘链接：https://pan.quark.cn/s/d6a5ca931be5</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1dyyLzYErT.html">DSH插件通用安装教程（保姆级）</a></div>
+  <div class="m">777yey · 1206 播放 · 1:30 · 2026-11-22</div>
+  <div class="d">关键词（9178）别发在评论区啊我超威</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1HayLzkESG.html">dsh或codex接入gpt6.2小白教学</a></div>
+  <div class="m">mikuGPT6A · 89 播放 · 0:46 · 2026-11-22</div>
+  <div class="d">链接：https://pan.quark.cn/s/669f96a4f932?pwd=HFG3
+提取码：HFG3</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1DXyVzJELF.html">或许，你的鱼只差这一步？HDM记忆DSH插件介绍视频（0.3.1）</a></div>
+  <div class="m">石英水岩 · 570 播放 · 4:2 · 2026-11-22</div>
+  <div class="d">HDM，一个DSH的记忆插件。仓库地址：https://github.com/baigeiexe325/DSH-hdm/releases/tag/v0.3.1
+累死我了，本来还想搞一个BUG反馈群的，但估摸着要没时间了。毕竟我还没高中毕业。
+设置页面的保存按钮在最底下白色的那个，推荐把所有自动注入都开了。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1DSyVzpE9H.html">大肥鱼桌宠：一键导入Live2D模型，克隆语音！最新教程 安装和扩展介绍【B站AI创造公开赛】</a></div>
+  <div class="m">PalAILab · 2.9万 播放 · 15:21 · 2026-11-22</div>
+  <div class="d">我们是 Pal AI Lab，把最新的 AI 技术变成你身边触手可及的伙伴！
+联系方式： phantivia@gmail.com
+仓库地址：https://github.com/Pal-AI-Lab/Coopanion
+群聊：1080755910（一群 已满）1129285246（二群 已满）1132082279（三群 已满）1080323271（四群 已满）
+702451490（五群）498403015（六群）</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1q4yXz6Exf.html">Skill 到底是什么？从安装使用到自制，一次讲清楚</a></div>
+  <div class="m">半成品本人 · 633 播放 · 11:37 · 2026-11-23</div>
+  <div class="d">大家都在说的skill到底是什么？怎么安装使用？怎么把自己的经历改造为skill？
+这一期视频讲清楚全部问题。</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1Vwsh6zE8B.html">WorkBuddy额度可丝滑用到其他智能体里</a></div>
+  <div class="m">跟着叶秋学AI · 1211 播放 · 1:45 · 2026-11-19</div>
+  <div class="d">DSH等其他智能体框架也能用WorkBuddy的积分，草履虫级教程</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1VsHe66Enp.html">DSH直接零TOKEN使用</a></div>
+  <div class="m">跟着叶秋学AI · 1333 播放 · 1:47 · 2026-10-03</div>
+  <div class="d">全网独家AI技术创新突破分享
+全量软件及技术资料尽在https://t.zsxq.com/QkBVL</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV19vaB6yELm.html">我用DSH实现1人抵50人</a></div>
+  <div class="m">跟着叶秋学AI · 296 播放 · 1:42 · 2026-10-01</div>
+  <div class="d">全网独家AI技术创新突破分享
+全量软件及技术资料尽在https://t.zsxq.com/QkBVL</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1UZaW6YEps.html">【DSH 前路观察 09】免费的马具，涨价的大脑：开源 3 天后的那场 API 涨价</a></div>
+  <div class="m">码上花生 · 32 播放 · 5:28 · 2026-09-29</div>
+  <div class="d">八月十三号框架免费开源，八月十六号 API 改分时计价——就隔三天，社区梗图刷屏：&quot;免费的马具，涨价的大脑。&quot;
+本期拆商业牌局：为什么缓存命中涨 11 倍最伤 Agent 用户、价格天梯上的真实位置、三层算盘（引流/变现/对冲），以及那个漂亮的悖论——模型可换的框架本身就是涨价保险。顺带扫一遍牌桌：Claude Code 九个现成功能 vs DSH 三个独有，和它完全缺席的下一个战场，现价以官方定价页为准。
+系列合集《DeepSeek Harness 的前路在何方》持续更新。
+仁者见 AI，智者见未来。一</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XKaH68EjE.html">DSH桌面端保姆级教程</a></div>
+  <div class="m">跟着叶秋学AI · 534 播放 · 1:47 · 2026-09-29</div>
+  <div class="d">全网独家AI技术创新突破分享
+全量软件及技术资料尽在https://t.zsxq.com/QkBVL</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1XL1AzZEpx.html">【deepseek harness 自制插件】悬浮小帮手 一个可以让你在dsh里用上web版deepseek的插件</a></div>
+  <div class="m">苛虎丶 · 44 播放 · 1:23 · 2026-11-25</div>
+  <div class="d">X 自制了一个插件
+□ 视频配音gemini 3.8 flash lite
+⚪ 似乎可以和官方新出的导入打配合，但做出来插件的时候那个功能还没出
+▲有时间更新再研究吧（</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1vbW86MEzC.html">【dsh-style】让 AI 学会看别人的视频，包括弹幕和画面</a></div>
+  <div class="m">爱玩崩铁的咸鱼 · 98 播放 · 1:9 · 2026-11-09</div>
+  <div class="d">第六个插件：dsh-style，学别人怎么做视频。
+
+不是抄。是把同类的数据拆成能用的数字。
+
+■ 先批量学
+一个 UP 主最近 N 条，或一个关键词下 N 条，一次入库。
+算三样：字幕的字数密度、句子长度、标题套路。
+
+■ 再往下拆弹幕和画面
+弹幕看两件事：哪段最密、哪个词被反复刷（DSH 测评那条「还没」被刷了 16 次）。
+画面本地算：切镜率、字幕条占比、亮度——不看图，不花视觉 token。
+
+■ 这些都算完，才轮到出稿
+给一个选题，直接给骨架：几段、每段多少字、每句几字、结尾怎么收。
+写完再给自</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1c34G6BEed.html">一句话装好DSH直播弹幕插件(保姆级教程)：收弹幕、转文字、还替你挑高光</a></div>
+  <div class="m">年银滔 · 2534 播放 · 4:31 · 2026-11-03</div>
+  <div class="d">这个插件不让你敲命令：你对 AI 说一句「帮我把 B 站直播弹幕插件装上」，剩下的它做。
+装完你多了三样东西：耳朵（把声音转成带时间戳的文字）· 记事本（弹幕、礼物、SC、进场，谁在几点说了什么）· 筛子（事后挑出弹幕突然变密的那几分钟）。
+它明确不做三件事：不会自己跑进别人房间、不会自己开口、不会录你的屏幕。放行要你点，发弹幕要你点头，默认全关。
+章节：00:00 不用你动手 / 00:15 三样东西 / 00:52 不做的三件事 / 01:24 安装 / 01:48 装完看三眼 / 02:10 你看到</div>
+</div><div class="item">
+  <div class="t"><a href="v/BV1hax76vEDk.html">[开源] DSH接入OBS直播自动AI弹幕回复插件</a></div>
+  <div class="m">Super鸢寂 · 2196 播放 · 1:37 · 2026-10-28</div>
+  <div class="d">下载：https://github.com/SuperYuanji/zishe.git
+小鲸鱼的样子和rvc模型可以随意修改，直接交给DSH即可！
+注意：1.包内只有一个rvc语音模型并不自带rvc本体（体积太大），本体需要自己下载，下载方式直接在互联网搜索有很多教程
+2.内置有识屏但需要额外开启
+3.下载完成后基础数值（可更改）为：
+自言自语90s
+自动识屏1min/次  无弹幕会暂停（减少token消耗）
+4.使用时每小时token消耗量为0.5～0.9元/h，不开识屏为0.1～0.3元/h
+感谢大家</div>
 </div>
 
 <div class="note">本站由自动化流程维护：每 30 分钟收录一次，内容来自 B 站公开信息，仅作索引与摘要。若链接失效或内容有误，请联系维护者。</div>

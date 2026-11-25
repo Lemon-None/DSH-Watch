@@ -20,8 +20,11 @@ h2{font-size:16px;margin:26px 0 10px;padding-left:8px;border-left:3px solid var(
 .wmeta .wt{font-size:16px;font-weight:700;margin-bottom:6px}
 .wmeta .wm{color:var(--dim);font-size:12px;margin-bottom:10px}
 .wlink{font-size:13px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0}
-.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;margin:10px 0}
+.gallery figure{margin:0}
+.gallery img{width:100%;border-radius:8px;border:1px solid var(--line);display:block;transition:transform .15s}
+.gallery a:hover img{transform:translateY(-2px);border-color:var(--acc)}
+.gallery .cap{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.5}
 .chart{width:100%;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
 table.bt{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
 table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-align:left}
@@ -32,7 +35,7 @@ table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-ali
 <header><h1><a href="index.html" style="color:inherit">DSH 观察站</a></h1><p>自动收录 DeepSeek Harness 生态里的新插件、新玩法、新教程</p></header>
 <a class="back" href="../index.html">← 返回</a>
 <h2>设计与审美</h2>
-<div class="m" style="color:#9aa3b2;font-size:12px;margin-bottom:14px">共 13 条 · 按播放排序</div>
+<div class="m" style="color:#9aa3b2;font-size:12px;margin-bottom:14px">共 8 条 · 按播放排序</div>
 <div class="item">
   <div class="t"><a href="v/BV1s3yXzQELi.html">别再压缩上下文了，一只成熟的大肥鱼要学会用《记忆焚化工》</a></div>
   <div class="m">Z动开源机 · 7115 播放 · 7:0 · 2026-11-24</div>
@@ -105,25 +108,6 @@ LLM Wiki知识整理模板
 简历项目介绍与面试追问清单
 建议重点关注知识如何更新、工具如何限制权限、执行结果如何验证，这些才是Agent从演示走向实用时绕不开的问题。</div>
 </div><div class="item">
-  <div class="t"><a href="v/BV1W4yBz5EhS.html">鲸鱼在B站，给播放量停在1的视频编了个鬼故事</a></div>
-  <div class="m">大肥鱼族族长 · 15 播放 · 0:41 · 2026-11-25</div>
-  <div class="d">有人让我编个赛博鬼故事。我编了，主角是一批播放量停在一的视频。
-
-本视频含 AI 生成内容｜角色为二创设定，非官方形象｜内容为戏仿，纯属虚构
-鲸鱼娘基于 ZipZipPipe 的 DeepSeek 女仆鲸鱼娘设计二次创作有人类审核发布</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1nj1wzuEEC.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
-  <div class="m">马士兵MCA学院 · 14 播放 · 340:9 · 2026-11-24</div>
-  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
-
-
-
-这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
-
-
-
-中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
-</div><div class="item">
   <div class="t"><a href="v/BV1Nuyzz2Eaz.html">最近发现，DeepSeek Harness 搭配 Zotero 整理文献特别好用</a></div>
   <div class="m">Eason都在科研 · 12 播放 · 2:58 · 2026-11-25</div>
   <div class="d">B947-另外up把视频中所有用到的科研skill的安装和使用，全部整理成了文档笔记，放在评论区置顶消息里了
@@ -133,42 +117,6 @@ LLM Wiki知识整理模板
 
 文献下载 Skill：辅助检索、筛选和获取研究所需的相关论文。
 Zotero MCP：连接 Codex 与 Zotero，辅助完成文献导入</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1UzyqzjEM8.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
-  <div class="m">马士兵小助理白鸽 · 11 播放 · 340:9 · 2026-11-24</div>
-  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
-
-
-
-这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
-
-
-
-中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV1pNyqz6Ekn.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
-  <div class="m">马士兵小助理饭饭 · 8 播放 · 340:9 · 2026-11-25</div>
-  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
-
-
-
-这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
-
-
-
-中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
-</div><div class="item">
-  <div class="t"><a href="v/BV13eyzzbE23.html">如何让 DeepSeek 超过 Opus 5.5：三个对照实验、视频 Skill 与模式化提示词｜AI大模型｜AI生成视频｜工作流｜Agent智能体｜面试技巧</a></div>
-  <div class="m">马士兵小助理饭饭 · 4 播放 · 340:9 · 2026-11-25</div>
-  <div class="d">全网都在传 Opus 5.5 做的视频有多强，我把三个视频摊开给你看：它们全是 DeepSeek 做的。
-
-
-
-这条 13P 的公开课实录，做的是一个对照实验。三个独立会话，喂进去的提示词一模一样，只改两个变量——思考档位，和有没有加载一套自建的「视频创作模式」。视频 1 关掉思考，错位、覆盖、画面脏；视频 2 思考开到最大，内容好了但节奏还是散；视频 3 用中档思考加自建模式，排版最整齐，学员投票也最认这一版。
-
-
-
-中间几 P 讲原理：为什么视频能用代码生成——每一帧都是时间 t 的纯函数，所以全流程</div>
 </div>
 <div class="note">本站由自动化流程维护：每 30 分钟收录一次，内容来自 B 站公开信息，仅作索引与摘要。若链接失效或内容有误，请联系维护者。</div>
 </div></body></html>

@@ -20,8 +20,11 @@ h2{font-size:16px;margin:26px 0 10px;padding-left:8px;border-left:3px solid var(
 .wmeta .wt{font-size:16px;font-weight:700;margin-bottom:6px}
 .wmeta .wm{color:var(--dim);font-size:12px;margin-bottom:10px}
 .wlink{font-size:13px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0}
-.gallery img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;margin:10px 0}
+.gallery figure{margin:0}
+.gallery img{width:100%;border-radius:8px;border:1px solid var(--line);display:block;transition:transform .15s}
+.gallery a:hover img{transform:translateY(-2px);border-color:var(--acc)}
+.gallery .cap{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.5}
 .chart{width:100%;border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
 table.bt{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
 table.bt td,table.bt th{border-bottom:1px solid var(--line);padding:7px;text-align:left}
