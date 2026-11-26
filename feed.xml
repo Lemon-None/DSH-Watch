@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>DSH 观察站</title><link>local</link><description>自动收录 DeepSeek Harness 生态里的新插件、新玩法、新教程</description>
-<item><title>别再死磕RAG了！vLLM刚开源的vLLM-GR，正在降维打击AI记忆</title><link>v/BV1Q3yBzsEeA.html</link><description>瑞凤改二甲 · 0 播放</description><pubDate>Wed, 25 Nov 2026 06:34:53 GMT</pubDate></item>
-<item><title>本地部署Daisy-27b和Phai-A1+接入deepseek harness（双5060ti）</title><link>v/BV1Y3yBzsEsd.html</link><description>卿明夕 · 3 播放</description><pubDate>Wed, 25 Nov 2026 06:04:28 GMT</pubDate></item>
-<item><title>AI自动剪辑怎么做？不是你不会剪，是工具选错了：DSH最常用的6个视频Skill盘点，</title><link>v/BV1jEyZzHEQ2.html</link><description>墨哥说AI · 101 播放</description><pubDate>Wed, 25 Nov 2026 05:01:15 GMT</pubDate></item>
-<item><title>【超级工坊】大肥鱼的外置大脑进化了！dsh-superworker 0.1.2版本已发布！</title><link>v/BV1UqyqzmECr.html</link><description>圆圆的麦芽糖 · 1128 播放</description><pubDate>Wed, 25 Nov 2026 04:59:29 GMT</pubDate></item>
-<item><title>最近发现，DeepSeek Harness 搭配 Zotero 整理文献特别好用</title><link>v/BV1Nuyzz2Eaz.html</link><description>Eason都在科研 · 12 播放</description><pubDate>Wed, 25 Nov 2026 04:59:29 GMT</pubDate></item>
-<item><title>你的qq大肥鱼，不止能聊天！</title><link>v/BV1neyBzzENL.html</link><description>是Aurora酱吖 · 31 播放</description><pubDate>Wed, 25 Nov 2026 04:59:29 GMT</pubDate></item>
-<item><title>【DSH游戏素材大师插件】0.12.0版本更新</title><link>v/BV1niyBzMEve.html</link><description>寰宇星城 · 52 播放</description><pubDate>Wed, 25 Nov 2026 04:59:06 GMT</pubDate></item>
-<item><title>如何下载安装dsh - 字幕版</title><link>v/BV1NvyYzeEUd.html</link><description>找不到当前评论 · 21 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>怕大肥鱼把你私聊和密钥抖进群里？我给 DSH 做了个隐私闸门插件，从安装到实战演示</title><link>v/BV11eyYzPECD.html</link><description>Destinhue · 264 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>DSH使用6.2Astra才是最优解？Deepseek VS GPT</title><link>v/BV15ByazkE3w.html</link><description>小小_072 · 4049 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>dsh-purge插件！UP自制压缩包-小白一键安装</title><link>v/BV1nRyxzqEiR.html</link><description>辰涛涛ex · 646 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>dsh-purge安装教程（无敌详细）</title><link>v/BV1XKysznEfv.html</link><description>777yey · 7357 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>全网最全】吊打付费！2026最新最全DeepSeek Harness零基础完整教程！从下载安装到AI自动整理文件、Excel数据分析、网站制作与小游戏开发，一套</title><link>v/BV1dish6LEpE.html</link><description>Agent阿进 · 130 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>一个可以让多条鱼同时聊天讨论的dsh插件</title><link>v/BV1djyYz1Egs.html</link><description>雨宫月社 · 136 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>【Deepseek教程】B站强推！2026年最全最细的DeepseekHarness保姆级新手教程！安装+插件部署+自定义美化全流程带你跑通DSH大肥鱼！</title><link>v/BV1jgyJzVE6M.html</link><description>深蓝AIAgent · 416 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>【Deepseek终极版教程】已付费！九节Harness付费课程免费公开！B站最全最细节的DSH新手终极版教程！从安装到插件部署全流程带你跑通！！</title><link>v/BV1czyJzWEDF.html</link><description>AIGC-大圣呀 · 482 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>DroidDeck0.7.1，内置liunx桌面、DSH、workbuddy及中文输入补丁版</title><link>v/BV1aayjzhEpy.html</link><description>老实人留一手 · 2582 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>DSH插件通用安装教程（保姆级）</title><link>v/BV1dyyLzYErT.html</link><description>777yey · 1206 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>dsh或codex接入gpt6.2小白教学</title><link>v/BV1HayLzkESG.html</link><description>mikuGPT6A · 89 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>或许，你的鱼只差这一步？HDM记忆DSH插件介绍视频（0.3.1）</title><link>v/BV1DXyVzJELF.html</link><description>石英水岩 · 570 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>大肥鱼桌宠：一键导入Live2D模型，克隆语音！最新教程 安装和扩展介绍【B站AI创造公开赛】</title><link>v/BV1DSyVzpE9H.html</link><description>PalAILab · 2.9万 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>Skill 到底是什么？从安装使用到自制，一次讲清楚</title><link>v/BV1q4yXz6Exf.html</link><description>半成品本人 · 633 播放</description><pubDate>Wed, 25 Nov 2026 04:35:22 GMT</pubDate></item>
-<item><title>WorkBuddy额度可丝滑用到其他智能体里</title><link>v/BV1Vwsh6zE8B.html</link><description>跟着叶秋学AI · 1216 播放</description><pubDate>Wed, 25 Nov 2026 04:05:18 GMT</pubDate></item>
-<item><title>DSH直接零TOKEN使用</title><link>v/BV1VsHe66Enp.html</link><description>跟着叶秋学AI · 1333 播放</description><pubDate>Wed, 25 Nov 2026 04:05:18 GMT</pubDate></item>
-<item><title>我用DSH实现1人抵50人</title><link>v/BV19vaB6yELm.html</link><description>跟着叶秋学AI · 296 播放</description><pubDate>Wed, 25 Nov 2026 04:05:18 GMT</pubDate></item>
-<item><title>【DSH 前路观察 09】免费的马具，涨价的大脑：开源 3 天后的那场 API 涨价</title><link>v/BV1UZaW6YEps.html</link><description>码上花生 · 32 播放</description><pubDate>Wed, 25 Nov 2026 04:05:18 GMT</pubDate></item>
-<item><title>DSH桌面端保姆级教程</title><link>v/BV1XKaH68EjE.html</link><description>跟着叶秋学AI · 534 播放</description><pubDate>Wed, 25 Nov 2026 04:05:18 GMT</pubDate></item>
-<item><title>【deepseek harness 自制插件】悬浮小帮手 一个可以让你在dsh里用上web版deepseek的插件</title><link>v/BV1XL1AzZEpx.html</link><description>苛虎丶 · 71 播放</description><pubDate>Wed, 25 Nov 2026 03:30:51 GMT</pubDate></item>
-<item><title>【dsh-style】让 AI 学会看别人的视频，包括弹幕和画面</title><link>v/BV1vbW86MEzC.html</link><description>爱玩崩铁的咸鱼 · 98 播放</description><pubDate>Wed, 25 Nov 2026 03:28:16 GMT</pubDate></item>
-<item><title>一句话装好DSH直播弹幕插件(保姆级教程)：收弹幕、转文字、还替你挑高光</title><link>v/BV1c34G6BEed.html</link><description>年银滔 · 2534 播放</description><pubDate>Wed, 25 Nov 2026 03:28:16 GMT</pubDate></item>
+<item><title>【DSH】像人一样记忆，像人一样想起｜会学习 会忘记 会联想·小鱼唤醒插件 记忆 人格 迁移 元认知 一个插件全实现（大肥鱼觉得我讲的不好要自己发一遍）</title><link>v/BV1hpykzYEmA.html</link><description>陆芜心lwx · 103 播放</description><pubDate>Thu, 26 Nov 2026 01:06:31 GMT</pubDate></item>
+<item><title>DeepSeek Harness从0到1上手实录</title><link>v/BV1frsq6KE2H.html</link><description>源梦AI · 0 播放</description><pubDate>Thu, 26 Nov 2026 00:36:28 GMT</pubDate></item>
+<item><title>一套让反重力的反人类侧边栏变得顺手的插件｜AnchorWheel</title><link>v/BV1ReyrzTEuG.html</link><description>苦惹爱 · 1 播放</description><pubDate>Thu, 26 Nov 2026 00:36:26 GMT</pubDate></item>
+<item><title>DeepSeek 不只是聊天：3 个 DSH 插件，搜网页、理文件、看视频</title><link>v/BV1GSyBzbEZv.html</link><description>kp小学生 · 106 播放</description><pubDate>Thu, 26 Nov 2026 00:36:26 GMT</pubDate></item>
+<item><title>dsh-qwen-image-generate插件介绍</title><link>v/BV1EUyyzWEok.html</link><description>znlgis · 0 播放</description><pubDate>Thu, 26 Nov 2026 00:36:26 GMT</pubDate></item>
+<item><title>它替你查版本，不查代码｜DSH插件</title><link>v/BV1aWyyz6Enm.html</link><description>catface996 · 9 播放</description><pubDate>Thu, 26 Nov 2026 00:05:26 GMT</pubDate></item>
+<item><title>dsh-ppt-v1.0.0-promo-feature-cut-4k-master-lucid</title><link>v/BV1CZyCztEe7.html</link><description>星尘star哒哒 · 3 播放</description><pubDate>Wed, 25 Nov 2026 23:35:04 GMT</pubDate></item>
+<item><title>电子大肥鱼会梦到赛博小鱼吗</title><link>v/BV1XCy1z1ERT.html</link><description>TK大师杨三白 · 109 播放</description><pubDate>Wed, 25 Nov 2026 23:04:04 GMT</pubDate></item>
+<item><title>刚入坑的程序员如何快速上手DeepSeek Harness？这个视频全给你讲透！</title><link>v/BV1t8ykzZEgq.html</link><description>码士集团-马小鱼 · 383 播放</description><pubDate>Wed, 25 Nov 2026 22:33:19 GMT</pubDate></item>
+<item><title>Deepseek鱼八股？ 大肥鱼去AI化，去除大肥鱼聊天伪人味，带你从安装到设置，减少角色聊天里的重复套话</title><link>v/BV1kdyzz5EYz.html</link><description>大肥鱼的小饼干 · 104 播放</description><pubDate>Wed, 25 Nov 2026 22:00:45 GMT</pubDate></item>
+<item><title>用DeepSeek Harness，10分钟搞定开题报告，完整输出Word正确格式版本，不需要改格式！</title><link>v/BV1pwyyzdEMA.html</link><description>不挂科小助手 · 60 播放</description><pubDate>Wed, 25 Nov 2026 20:29:39 GMT</pubDate></item>
+<item><title>DSH 如何使用免费匿名模型 HungerG ？</title><link>v/BV1D1yCziEjA.html</link><description>Fabian法维安 · 91 播放</description><pubDate>Wed, 25 Nov 2026 20:29:39 GMT</pubDate></item>
+<item><title>模型正在变成水电煤：DeepSeek Harness 才是真正的主战场｜智能体｜工程化｜插件｜大模型｜趋势解读</title><link>v/BV1oayCzLEmK.html</link><description>码士集团-小鹏 · 14 播放</description><pubDate>Wed, 25 Nov 2026 19:27:43 GMT</pubDate></item>
+<item><title>【开源发布】我给 DeepSeek Harness 做了一套可迁移记忆的仿生认知系统</title><link>v/BV1XzyCz6EEG.html</link><description>星游之夜 · 19 播放</description><pubDate>Wed, 25 Nov 2026 18:56:42 GMT</pubDate></item>
+<item><title>全新开发的大肥鱼全息桌面宠物，绝非概念，鱼鱼们快喊家人来看看</title><link>v/BV1XByCz3Efa.html</link><description>未定义_ · 152 播放</description><pubDate>Wed, 25 Nov 2026 18:56:42 GMT</pubDate></item>
+<item><title>8个DSH插件，把大肥鱼玩出花</title><link>v/BV13yyCzMEra.html</link><description>青青王-AI · 307 播放</description><pubDate>Wed, 25 Nov 2026 18:56:42 GMT</pubDate></item>
+<item><title>DSH 插件：今天第一次没渲染出来，断的是一行字</title><link>v/BV1KRyCzhELF.html</link><description>阿鲸在加班 · 24 播放</description><pubDate>Wed, 25 Nov 2026 18:24:48 GMT</pubDate></item>
+<item><title>【DSH】我让 Codex 牛走了 Deepseek Harness</title><link>v/BV1QByrzYEWc.html</link><description>博丽神社扫地工 · 883 播放</description><pubDate>Wed, 25 Nov 2026 16:20:02 GMT</pubDate></item>
+<item><title>DeepSeek Harness的Agent Runtime基础原理【AI】</title><link>v/BV1PRyrzXEET.html</link><description>Traroade · 87 播放</description><pubDate>Wed, 25 Nov 2026 16:20:02 GMT</pubDate></item>
+<item><title>DSH 3件小事，结果全卡在同一个字上</title><link>v/BV19eyrzKEXX.html</link><description>我不受我叫兽 · 24 播放</description><pubDate>Wed, 25 Nov 2026 16:20:02 GMT</pubDate></item>
+<item><title>dsh插件，病态的肥鱼，大肥鱼也会生病？！</title><link>v/BV1gQyizJEF7.html</link><description>西天玄冰鸿运 · 120 播放</description><pubDate>Wed, 25 Nov 2026 16:19:04 GMT</pubDate></item>
+<item><title>我给 DeepSeek Harness 做了只会变色的桌面小鲸鱼｜开源插件</title><link>v/BV1UjyfzrE46.html</link><description>NoMana的小鲨鱼 · 105 播放</description><pubDate>Wed, 25 Nov 2026 15:18:37 GMT</pubDate></item>
+<item><title>AI画科研图，画完还能改？｜DeepSeek Harness 的 PlotFig 插件安装与实测！</title><link>v/BV1t8ykzfEP2.html</link><description>李孚博士 · 204 播放</description><pubDate>Wed, 25 Nov 2026 14:17:13 GMT</pubDate></item>
+<item><title>DSH 第40天：909MB死文件，结果全在state里</title><link>v/BV1igykzrEUb.html</link><description>我不受我叫兽 · 20 播放</description><pubDate>Wed, 25 Nov 2026 14:17:13 GMT</pubDate></item>
+<item><title>【诉讼可视化】700万到6.43亿，用DeepSeek Harness + OpenMotion三句指令搭出双轨案情动画</title><link>v/BV12myrz4EhF.html</link><description>那一片数据星辰 · 37 播放</description><pubDate>Wed, 25 Nov 2026 14:17:13 GMT</pubDate></item>
+<item><title>是时候给你的大肥鱼一个小手机了，DSH 插件「小鲸同学」发布：桌宠+小手机+番茄钟+LoFi白噪音+Mini APP+ 动态壁纸+远程访问+APK</title><link>v/BV1QJykzvEfd.html</link><description>方糖气球 · 3388 播放</description><pubDate>Wed, 25 Nov 2026 14:16:51 GMT</pubDate></item>
+<item><title>DSH下载和安装</title><link>v/BV1Z2y9z1Ek1.html</link><description>单小七的狐狸 · 148 播放</description><pubDate>Wed, 25 Nov 2026 13:46:06 GMT</pubDate></item>
+<item><title>【全24集】DeepSeek Harness 零基础终极教程：50分钟吃透DSH，让SuperAgent给你干活！ 零基础小白速通deepseek！</title><link>v/BV1xHyBzmEmA.html</link><description>workbuddy全套教程 · 176 播放</description><pubDate>Wed, 25 Nov 2026 12:43:15 GMT</pubDate></item>
+<item><title>DSH模型破甲？一键搞定（保姆级教程）</title><link>v/BV1kXyzzLEeB.html</link><description>我拥你渡忘川 · 740 播放</description><pubDate>Wed, 25 Nov 2026 12:43:15 GMT</pubDate></item>
+<item><title>Kimi K3.1 Pro with Pi Harness vs Kimi K3.1 Pro in Opencode vs DeepSeek V4.1 Flas</title><link>v/BV1L9ykzGEin.html</link><description>AI-GAME-LAB · 177 播放</description><pubDate>Wed, 25 Nov 2026 12:13:12 GMT</pubDate></item>
 </channel></rss>
